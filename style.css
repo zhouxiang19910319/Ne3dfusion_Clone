@@ -16,6 +16,7 @@ body{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
 	line-height: 48px;
+	margin-bottom: 50px;
 }
 .section_content{
 	font-family: "Raleway";
@@ -27,7 +28,10 @@ body{
     color: rgba(0,0,0,.8);
     margin: 0 auto;
 }
-
+.universal_padding{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
 /*
 ====================
 Main CSS
@@ -78,6 +82,7 @@ h4{
 Who we are
 ==========
 */
+
 ul{
 	list-style-type: disc;
 }
@@ -98,7 +103,6 @@ What we do
 	margin-bottom: 30px;
 	margin-left: 10px;
 }
-
 /*
 ==========
 Jobs
@@ -129,12 +133,14 @@ Contact Us
 #contact{
 
 }
+#contact_us_text{
+	font-weight: 900;
+}
 .form_wrapper{
-	margin-bottom: 24px;
+	margin: 24px auto;
 }
 input[class="name"]{
 	height: 40px;
-	
 }
 input[class="email"]{
 	height: 40px;
@@ -148,10 +154,49 @@ textarea[name="message"]{
 	height: 100px;
 	width: 100%;
 }
+button{
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	font-family: "Raleway";
+	font-size: 14px;
+	padding: 14px 45px;
+    text-transform: none;
+    letter-spacing: .5px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    background-color: #272727;
+    border-color: #272727;
+    border-radius: 400px;
+}
+/*
+==========
+Grey bar
+==========
+*/
+#grey_bar{
+	background: #4F4F4F;
+	height: 70px;
+}
 
+/*
+==========
+Footer
+==========
+*/
 
-
-
+footer{
+	background: #404040;
+	height: 160px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer_text{
+	color: #868686;
+	font-family: 'Raleway', sans-serif;
+}
 
 
 

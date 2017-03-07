@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25568",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/images\/2016-02-09_17-10-45.png": {
 		"ft": 32768,
 		"iS": 1385282,
@@ -140,7 +146,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 509002139,
-	"displayValue": "Ne3dfusion_Clone",
+	"displayValue": "Nerdfusion_Clone",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-girlfriend"
 	},
