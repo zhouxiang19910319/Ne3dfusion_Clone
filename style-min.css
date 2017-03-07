@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 400px; }
+
+.section {
+  margin: 0 auto;
+  max-width: 50em; }
+
+.section_header {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  line-height: 48px;
+  margin-bottom: 50px; }
+
+.section_content {
+  font-family: "Raleway";
+  font-size: 15px;
+  line-height: 1.6em;
+  letter-spacing: .4px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0 auto; }
+
+.universal_padding {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+/*
+====================
+Main CSS
+====================
+*/
+/*
+==========
+Header
+==========
+*/
+ol {
+  text-align: center; }
+
+ol li a {
+  text-decoration: none;
+  color: #c2c2c2; }
+
+ol li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
+
+header {
+  background: #21242b url(https://static1.squarespace.com/static/56ba8bbd07eaa072e29a8db1/t/56ba8ee945bf217c98d0b6fc/1455066867608/2016-02-09_17-10-45.png?format=2500w) 50% 50% no-repeat;
+  background-size: cover;
+  height: 850px; }
+
+h1 {
+  font-size: 52px;
+  line-height: 59px;
+  margin: 350px auto 21px auto; }
+
+h4 {
+  font-size: 16px;
+  line-height: 20px; }
+
+.header_content {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center; }
+
+/*
+==========
+Who we are
+==========
+*/
+ul {
+  list-style-type: disc; }
+
+/*
+==========
+What we do
+==========
+*/
+.what_we_do_division {
+  background: #f5f5f5; }
+
+.partner_info {
+  text-align: center;
+  margin-bottom: 40px; }
+
+.partner_logo {
+  margin-bottom: 30px;
+  margin-left: 10px; }
+
+/*
+==========
+Jobs
+==========
+*/
+#orange_font {
+  color: #ff7a38; }
+
+.jobs_font {
+  color: grey; }
+
+#current_openings {
+  margin: 25px auto;
+  font-family: 'Raleway', sans-serif; }
+
+.jobs_division {
+  background-image: url(../images/jobs_background.jpg); }
+
+/*
+==========
+Contact Us
+==========
+*/
+#contact_us_text {
+  font-weight: 900; }
+
+.form_wrapper {
+  margin: 24px auto; }
+
+input[class="name"] {
+  height: 40px; }
+
+input[class="email"] {
+  height: 40px;
+  width: 100%; }
+
+input[class="subject"] {
+  height: 40px;
+  width: 100%; }
+
+textarea[name="message"] {
+  height: 100px;
+  width: 100%; }
+
+button {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-family: "Raleway";
+  font-size: 14px;
+  padding: 14px 45px;
+  text-transform: none;
+  letter-spacing: .5px;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  background-color: #272727;
+  border-color: #272727;
+  border-radius: 400px; }
+
+/*
+==========
+Grey bar
+==========
+*/
+#grey_bar {
+  background: #4F4F4F;
+  height: 70px; }
+
+/*
+==========
+Footer
+==========
+*/
+footer {
+  background: #404040;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+#footer_text {
+  color: #868686;
+  font-family: 'Raleway', sans-serif; }
