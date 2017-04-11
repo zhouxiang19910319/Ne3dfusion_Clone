@@ -7,7 +7,7 @@
 		"uuidString": "2455310F-2127-400C-97A7-327769D7DDFA"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25704",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -18,10 +18,12 @@
 	"\/images\/2016-02-09_17-10-45.png": {
 		"ft": 32768,
 		"iS": 1385282,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/2016-02-09_17-10-45.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/jobs_background.jpg": {
 		"ft": 16384,
@@ -29,7 +31,8 @@
 		"oA": 0,
 		"oAP": "\/images\/jobs_background.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -40,66 +43,82 @@
 	"\/logos\/1.png": {
 		"ft": 32768,
 		"iS": 6659,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/logos\/1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/logos\/2.png": {
 		"ft": 32768,
 		"iS": 3879,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/logos\/2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/logos\/3.png": {
 		"ft": 32768,
 		"iS": 9471,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/logos\/3.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/logos\/4.png": {
 		"ft": 32768,
 		"iS": 15553,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/logos\/4.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/logos\/5.png": {
 		"ft": 32768,
 		"iS": 19759,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/logos\/5.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/logos\/6.png": {
 		"ft": 32768,
 		"iS": 4659,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/logos\/6.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/logos\/7.png": {
 		"ft": 32768,
 		"iS": 15771,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/logos\/7.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/logos\/8.png": {
 		"ft": 32768,
 		"iS": 9845,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/logos\/8.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -126,6 +145,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/reset-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -820,6 +849,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1299,6 +1332,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -1899,7 +1936,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -1992,7 +2030,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
