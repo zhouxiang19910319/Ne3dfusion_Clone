@@ -12,7 +12,7 @@ body {
 
 .section_header {
   text-align: left;
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
   line-height: 48px;
@@ -20,7 +20,7 @@ body {
 
 .section_content {
   font-family: "Raleway";
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.6em;
   letter-spacing: .4px;
   font-weight: 400;
@@ -29,8 +29,7 @@ body {
   margin: 0 auto; }
 
 .universal_padding {
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding: 100px 80px; }
 
 /*
 ====================
@@ -54,7 +53,7 @@ ol li {
   list-style: none;
   margin: 20px 20px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px; }
+  font-size: 20px; }
 
 header {
   background: #21242b url(https://static1.squarespace.com/static/56ba8bbd07eaa072e29a8db1/t/56ba8ee945bf217c98d0b6fc/1455066867608/2016-02-09_17-10-45.png?format=2500w) 50% 50% no-repeat;
@@ -62,12 +61,12 @@ header {
   height: 850px; }
 
 h1 {
-  font-size: 52px;
+  font-size: 60px;
   line-height: 59px;
   margin: 350px auto 21px auto; }
 
 h4 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px; }
 
 .header_content {
@@ -148,7 +147,7 @@ button {
   display: block;
   margin: 0 auto;
   font-family: "Raleway";
-  font-size: 14px;
+  font-size: 16px;
   padding: 14px 45px;
   text-transform: none;
   letter-spacing: .5px;
@@ -189,3 +188,29 @@ footer {
 #footer_text {
   color: #868686;
   font-family: 'Raleway', sans-serif; }
+
+/*
+==========
+Media Queries
+==========
+*/
+@media screen and (max-width: 500px) {
+  .universal_padding {
+    padding: 50px; }
+  ol li {
+    margin: 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px; }
+  h1 {
+    font-size: 45px;
+    padding: 0px 10px; }
+  .partner_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  #footer_text {
+    margin: 0 50px; }
+  h1 {
+    margin: 200px auto 21px auto; }
+  .section_header {
+    line-height: 35px; } }
